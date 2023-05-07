@@ -1,6 +1,7 @@
 cimport cython
 import numpy as np
 from numpy cimport ndarray, int_t
+numpy.import_array()
 
 DEF PEAK = 1
 DEF VALLEY = -1
